@@ -20,12 +20,26 @@ const Projects = () => {
       year: "2025",
       githubUrl: "https://github.com/dimuthu-jay/FaceCx.git"
     },
+     {
+      title: "ProRev Analyzer",
+      description: "Intelligent product review sentiment analysis tool using natural language processing for business insights",
+      technologies: ["Python", "JavaScript", "Jupyter", "MongoDB"],
+      year: "2022-2023",
+      githubUrl: "https://github.com/DevakaAlwis/SDGP-Project"
+    },
     {
-      title: "Research Development Platform",
-      description: "Comprehensive portal connecting researchers and organizations to facilitate collaborative research initiatives",
+      title: "Ideas - SLT DIGITAL LAB",
+      description: "Research Development Platform. Comprehensive portal connecting researchers and organizations to facilitate collaborative research initiatives",
       technologies: ["React.js", "Node.js", "MongoDB"],
-      year: "2024",
-      githubUrl: "https://github.com/dimuthu-jay"
+      year: "2023-2024",
+      // githubUrl: "https://github.com/Daniel0Fernando/Research-Management-Platform.git"
+    },
+    {
+      title: "Ientrada - SLT DIGITAL LAB",
+      description: "Employee Face Recognition Attendance System. Automated attendance system using IP cameras and a Raspberry Pi-based edge device to detect, verify, and record employee entries and exits via facial recognition.",
+      technologies: ["Python","Raspberry Pi", "OpenCV"],
+      year: "2023-2024",
+      // githubUrl: "https://github.com/dimuthu-jay/FaceCx-Attendance-System"
     },
     {
       title: "Skin Consultation System",
@@ -33,13 +47,6 @@ const Projects = () => {
       technologies: ["Java", "Java Swing"],
       year: "2022",
       githubUrl: "https://github.com/dimuthu-jay/SKIN-CONSULTATION-SYSTEM.git"
-    },
-    {
-      title: "ProRev Analyzer",
-      description: "Intelligent product review sentiment analysis tool using natural language processing for business insights",
-      technologies: ["Python", "JavaScript", "Jupyter", "MongoDB"],
-      year: "2022-2023",
-      githubUrl: "https://github.com/DevakaAlwis/SDGP-Project"
     },
     {
       title: "Sports Zone",
@@ -50,7 +57,7 @@ const Projects = () => {
     },
     {
       title: "Academic Progress Prediction System",
-      description: "Machine learning system that predicts university academic progress using historical data and performance metrics",
+      description: "A program for the University to predict progress results at the end of each academic year",
       technologies: ["Python"],
       year: "2021",
       githubUrl: "https://github.com/dimuthu-jay/A-PROGRESS-PREDICTION-SYSTEM.git"

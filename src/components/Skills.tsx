@@ -8,7 +8,7 @@ const Skills = () => {
   ];
 
   const tools = [
-    "Git", "Figma", "draw.io", "ClickUp"
+    "Git", "Figma", "draw.io", "ClickUp", "Visual Studio Code"
   ];
 
   const interpersonalSkills = [

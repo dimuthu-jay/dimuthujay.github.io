@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { GraduationCap, Calendar, MapPin } from "lucide-react";
+import { GraduationCap, Calendar, MapPin, Briefcase } from "lucide-react";
 
 const About = () => {
   return (
@@ -19,10 +19,11 @@ const About = () => {
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I specialize in full-stack development, machine learning, and system architecture. My experience 
-              spans from building real-time analytics systems to developing user-friendly web applications. 
-              I believe in writing clean, efficient code and collaborating effectively with teams to deliver 
-              exceptional results.
+              I have one year of hands-on experience in full-stack development and UI/UX Design. 
+              My experience spans from building real-time analytics systems to developing user-friendly 
+              web applications. I believe in writing clean, efficient code and collaborating effectively with 
+              teams to deliver exceptional results.
+
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
@@ -50,12 +51,12 @@ const About = () => {
             <Card className="p-6 bg-card-gradient border-border hover:border-primary/50 transition-all duration-300">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <Calendar className="w-6 h-6 text-primary" />
+                  <Briefcase className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-foreground mb-2">Graduation Year</h3>
-                  <p className="text-primary font-medium">2025</p>
-                  <p className="text-muted-foreground">Second lower Honours  </p>
+                  <h3 className="text-xl font-semibold text-foreground mb-2">Experience</h3>
+                  <p className="text-primary font-medium">SLT DIGITAL LAB | 2023 - 2024</p>
+                  <p className="text-muted-foreground">Worked as a full-stack developer at SLT DIGITAL LAB.</p>
                 </div>
               </div>
             </Card>
@@ -63,15 +64,16 @@ const About = () => {
             <Card className="p-6 bg-card-gradient border-border hover:border-primary/50 transition-all duration-300">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <MapPin className="w-6 h-6 text-primary" />
+                  <Calendar className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-foreground mb-2">Location</h3>
-                  <p className="text-primary font-medium">Matara, Sri Lanka</p>
-                  <p className="text-muted-foreground">Available for remote work</p>
+                  <h3 className="text-xl font-semibold text-foreground mb-2">Graduation Year</h3>
+                  <p className="text-primary font-medium">2025</p>
+                  <p className="text-muted-foreground">Second Class Honours  </p>
                 </div>
               </div>
             </Card>
+
           </div>
         </div>
       </div>

@@ -32,12 +32,18 @@ const Header = () => {
     >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className=" w-30 h-30 lg:w-10 lg:h-10 ">
+  
+          <div className="flex items-center">
             <img 
               src={dimuthuLogo} 
-              alt="Dimuthu Jayathunga" 
-              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              alt="DJ Logo" 
+              className="h-10 w-auto"
             />
+            {isScrolled && (
+            <div className="text-xl font-bold text-primary">
+            Dimuthu Jayathunga
+          </div>
+          )}
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
