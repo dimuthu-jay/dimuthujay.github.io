@@ -84,7 +84,7 @@ const Contact = () => {
     {
       icon: MapPin,
       label: "Address",
-      value: "Thelijjawila, Matara, Sri Lanka.",
+      value: "Colombo, Sri Lanka.",
       href: "#"
     },
     {
